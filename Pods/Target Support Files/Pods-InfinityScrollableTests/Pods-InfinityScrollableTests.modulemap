@@ -1,0 +1,6 @@
+framework module Pods_InfinityScrollableTests {
+  umbrella header "Pods-InfinityScrollableTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

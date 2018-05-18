@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077B469620ADD7B800F9BE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B469520ADD7B800F9BE20 /* AppDelegate.swift */; };
+		077B469820ADD7B800F9BE20 /* InfinityImageLoadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B469720ADD7B800F9BE20 /* InfinityImageLoadVC.swift */; };
+		077B469B20ADD7B800F9BE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077B469920ADD7B800F9BE20 /* Main.storyboard */; };
+		077B469E20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 077B469C20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodeld */; };
+		077B46A020ADD7B800F9BE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077B469F20ADD7B800F9BE20 /* Assets.xcassets */; };
+		077B46A320ADD7B800F9BE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077B46A120ADD7B800F9BE20 /* LaunchScreen.storyboard */; };
+		077B46AE20ADD7B800F9BE20 /* InfinityScrollableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B46AD20ADD7B800F9BE20 /* InfinityScrollableTests.swift */; };
+		077B46B920ADD7B800F9BE20 /* InfinityScrollableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B46B820ADD7B800F9BE20 /* InfinityScrollableUITests.swift */; };
+		0F1E050005EC8710AAA1DDBE /* Pods_InfinityScrollableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D63C358B1086FA4822A4CD /* Pods_InfinityScrollableTests.framework */; };
+		2879521A47DE86DD9CEB8015 /* Pods_InfinityScrollableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B576A70518213C79F3C33 /* Pods_InfinityScrollableUITests.framework */; };
+		6DA8D326FEB0322F3FCAC5DC /* Pods_InfinityScrollable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0A6A9A5A1184747A7DCB70 /* Pods_InfinityScrollable.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077B46AA20ADD7B800F9BE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077B468A20ADD7B700F9BE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077B469120ADD7B700F9BE20;
+			remoteInfo = InfinityScrollable;
+		};
+		077B46B520ADD7B800F9BE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077B468A20ADD7B700F9BE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077B469120ADD7B700F9BE20;
+			remoteInfo = InfinityScrollable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077B469220ADD7B700F9BE20 /* InfinityScrollable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityScrollable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B469520ADD7B800F9BE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077B469720ADD7B800F9BE20 /* InfinityImageLoadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityImageLoadVC.swift; sourceTree = "<group>"; };
+		077B469A20ADD7B800F9BE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077B469D20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfinityScrollable.xcdatamodel; sourceTree = "<group>"; };
+		077B469F20ADD7B800F9BE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077B46A220ADD7B800F9BE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077B46A420ADD7B800F9BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077B46A920ADD7B800F9BE20 /* InfinityScrollableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityScrollableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B46AD20ADD7B800F9BE20 /* InfinityScrollableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScrollableTests.swift; sourceTree = "<group>"; };
+		077B46AF20ADD7B800F9BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077B46B420ADD7B800F9BE20 /* InfinityScrollableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityScrollableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B46B820ADD7B800F9BE20 /* InfinityScrollableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScrollableUITests.swift; sourceTree = "<group>"; };
+		077B46BA20ADD7B800F9BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E81E212B01A1A1F7F481C6 /* Pods-InfinityScrollable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityScrollable.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityScrollable/Pods-InfinityScrollable.release.xcconfig"; sourceTree = "<group>"; };
+		18D63C358B1086FA4822A4CD /* Pods_InfinityScrollableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinityScrollableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29373C6DBABB6BE955227506 /* Pods-InfinityScrollable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityScrollable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityScrollable/Pods-InfinityScrollable.debug.xcconfig"; sourceTree = "<group>"; };
+		5F0A6A9A5A1184747A7DCB70 /* Pods_InfinityScrollable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinityScrollable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E58B81DB49877DC34554D2 /* Pods-InfinityScrollableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityScrollableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityScrollableTests/Pods-InfinityScrollableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97F491A09C51973262E617CD /* Pods-InfinityScrollableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityScrollableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityScrollableTests/Pods-InfinityScrollableTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3E256B40346B6A139B77D9C /* Pods-InfinityScrollableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityScrollableUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityScrollableUITests/Pods-InfinityScrollableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2E28A09ED2C8D557E71E643 /* Pods-InfinityScrollableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityScrollableUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityScrollableUITests/Pods-InfinityScrollableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD8B576A70518213C79F3C33 /* Pods_InfinityScrollableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinityScrollableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077B468F20ADD7B700F9BE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA8D326FEB0322F3FCAC5DC /* Pods_InfinityScrollable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B46A620ADD7B800F9BE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1E050005EC8710AAA1DDBE /* Pods_InfinityScrollableTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B46B120ADD7B800F9BE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2879521A47DE86DD9CEB8015 /* Pods_InfinityScrollableUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077927A720ADE2FB003FEA05 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				077B469720ADD7B800F9BE20 /* InfinityImageLoadVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		077B468920ADD7B700F9BE20 = {
+			isa = PBXGroup;
+			children = (
+				077B469420ADD7B700F9BE20 /* InfinityScrollable */,
+				077B46AC20ADD7B800F9BE20 /* InfinityScrollableTests */,
+				077B46B720ADD7B800F9BE20 /* InfinityScrollableUITests */,
+				077B469320ADD7B700F9BE20 /* Products */,
+				8C3411E4FACE3F0E712A522A /* Pods */,
+				6DC3C5FCE808A2F48E59212F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		077B469320ADD7B700F9BE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077B469220ADD7B700F9BE20 /* InfinityScrollable.app */,
+				077B46A920ADD7B800F9BE20 /* InfinityScrollableTests.xctest */,
+				077B46B420ADD7B800F9BE20 /* InfinityScrollableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077B469420ADD7B700F9BE20 /* InfinityScrollable */ = {
+			isa = PBXGroup;
+			children = (
+				077B469520ADD7B800F9BE20 /* AppDelegate.swift */,
+				077927A720ADE2FB003FEA05 /* Home */,
+				077B469920ADD7B800F9BE20 /* Main.storyboard */,
+				077B469F20ADD7B800F9BE20 /* Assets.xcassets */,
+				077B46A120ADD7B800F9BE20 /* LaunchScreen.storyboard */,
+				077B46A420ADD7B800F9BE20 /* Info.plist */,
+				077B469C20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodeld */,
+			);
+			path = InfinityScrollable;
+			sourceTree = "<group>";
+		};
+		077B46AC20ADD7B800F9BE20 /* InfinityScrollableTests */ = {
+			isa = PBXGroup;
+			children = (
+				077B46AD20ADD7B800F9BE20 /* InfinityScrollableTests.swift */,
+				077B46AF20ADD7B800F9BE20 /* Info.plist */,
+			);
+			path = InfinityScrollableTests;
+			sourceTree = "<group>";
+		};
+		077B46B720ADD7B800F9BE20 /* InfinityScrollableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				077B46B820ADD7B800F9BE20 /* InfinityScrollableUITests.swift */,
+				077B46BA20ADD7B800F9BE20 /* Info.plist */,
+			);
+			path = InfinityScrollableUITests;
+			sourceTree = "<group>";
+		};
+		6DC3C5FCE808A2F48E59212F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F0A6A9A5A1184747A7DCB70 /* Pods_InfinityScrollable.framework */,
+				18D63C358B1086FA4822A4CD /* Pods_InfinityScrollableTests.framework */,
+				FD8B576A70518213C79F3C33 /* Pods_InfinityScrollableUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C3411E4FACE3F0E712A522A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29373C6DBABB6BE955227506 /* Pods-InfinityScrollable.debug.xcconfig */,
+				13E81E212B01A1A1F7F481C6 /* Pods-InfinityScrollable.release.xcconfig */,
+				79E58B81DB49877DC34554D2 /* Pods-InfinityScrollableTests.debug.xcconfig */,
+				97F491A09C51973262E617CD /* Pods-InfinityScrollableTests.release.xcconfig */,
+				A3E256B40346B6A139B77D9C /* Pods-InfinityScrollableUITests.debug.xcconfig */,
+				F2E28A09ED2C8D557E71E643 /* Pods-InfinityScrollableUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077B469120ADD7B700F9BE20 /* InfinityScrollable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B46BD20ADD7B800F9BE20 /* Build configuration list for PBXNativeTarget "InfinityScrollable" */;
+			buildPhases = (
+				B36AE70B977DD660BEFE69FE /* [CP] Check Pods Manifest.lock */,
+				077B468E20ADD7B700F9BE20 /* Sources */,
+				077B468F20ADD7B700F9BE20 /* Frameworks */,
+				077B469020ADD7B700F9BE20 /* Resources */,
+				CC706213CC7D788131B5EDE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinityScrollable;
+			productName = InfinityScrollable;
+			productReference = 077B469220ADD7B700F9BE20 /* InfinityScrollable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077B46A820ADD7B800F9BE20 /* InfinityScrollableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B46C020ADD7B800F9BE20 /* Build configuration list for PBXNativeTarget "InfinityScrollableTests" */;
+			buildPhases = (
+				0781ECAF88EF6A3C53B84CE0 /* [CP] Check Pods Manifest.lock */,
+				077B46A520ADD7B800F9BE20 /* Sources */,
+				077B46A620ADD7B800F9BE20 /* Frameworks */,
+				077B46A720ADD7B800F9BE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077B46AB20ADD7B800F9BE20 /* PBXTargetDependency */,
+			);
+			name = InfinityScrollableTests;
+			productName = InfinityScrollableTests;
+			productReference = 077B46A920ADD7B800F9BE20 /* InfinityScrollableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		077B46B320ADD7B800F9BE20 /* InfinityScrollableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B46C320ADD7B800F9BE20 /* Build configuration list for PBXNativeTarget "InfinityScrollableUITests" */;
+			buildPhases = (
+				15F390BE77D973A6D93AE305 /* [CP] Check Pods Manifest.lock */,
+				077B46B020ADD7B800F9BE20 /* Sources */,
+				077B46B120ADD7B800F9BE20 /* Frameworks */,
+				077B46B220ADD7B800F9BE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077B46B620ADD7B800F9BE20 /* PBXTargetDependency */,
+			);
+			name = InfinityScrollableUITests;
+			productName = InfinityScrollableUITests;
+			productReference = 077B46B420ADD7B800F9BE20 /* InfinityScrollableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077B468A20ADD7B700F9BE20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bhavin Chauhan";
+				TargetAttributes = {
+					077B469120ADD7B700F9BE20 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					077B46A820ADD7B800F9BE20 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 077B469120ADD7B700F9BE20;
+					};
+					077B46B320ADD7B800F9BE20 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 077B469120ADD7B700F9BE20;
+					};
+				};
+			};
+			buildConfigurationList = 077B468D20ADD7B700F9BE20 /* Build configuration list for PBXProject "InfinityScrollable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077B468920ADD7B700F9BE20;
+			productRefGroup = 077B469320ADD7B700F9BE20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077B469120ADD7B700F9BE20 /* InfinityScrollable */,
+				077B46A820ADD7B800F9BE20 /* InfinityScrollableTests */,
+				077B46B320ADD7B800F9BE20 /* InfinityScrollableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077B469020ADD7B700F9BE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B46A320ADD7B800F9BE20 /* LaunchScreen.storyboard in Resources */,
+				077B46A020ADD7B800F9BE20 /* Assets.xcassets in Resources */,
+				077B469B20ADD7B800F9BE20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B46A720ADD7B800F9BE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B46B220ADD7B800F9BE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0781ECAF88EF6A3C53B84CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinityScrollableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15F390BE77D973A6D93AE305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinityScrollableUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36AE70B977DD660BEFE69FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinityScrollable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC706213CC7D788131B5EDE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InfinityScrollable/Pods-InfinityScrollable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfinityScrollable/Pods-InfinityScrollable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077B468E20ADD7B700F9BE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B469820ADD7B800F9BE20 /* InfinityImageLoadVC.swift in Sources */,
+				077B469620ADD7B800F9BE20 /* AppDelegate.swift in Sources */,
+				077B469E20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B46A520ADD7B800F9BE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B46AE20ADD7B800F9BE20 /* InfinityScrollableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B46B020ADD7B800F9BE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B46B920ADD7B800F9BE20 /* InfinityScrollableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077B46AB20ADD7B800F9BE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077B469120ADD7B700F9BE20 /* InfinityScrollable */;
+			targetProxy = 077B46AA20ADD7B800F9BE20 /* PBXContainerItemProxy */;
+		};
+		077B46B620ADD7B800F9BE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077B469120ADD7B700F9BE20 /* InfinityScrollable */;
+			targetProxy = 077B46B520ADD7B800F9BE20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077B469920ADD7B800F9BE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077B469A20ADD7B800F9BE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077B46A120ADD7B800F9BE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077B46A220ADD7B800F9BE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077B46BB20ADD7B800F9BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		077B46BC20ADD7B800F9BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077B46BE20ADD7B800F9BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29373C6DBABB6BE955227506 /* Pods-InfinityScrollable.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = InfinityScrollable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Nuke\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhavin.InfinityScrollable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077B46BF20ADD7B800F9BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E81E212B01A1A1F7F481C6 /* Pods-InfinityScrollable.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = InfinityScrollable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Nuke\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhavin.InfinityScrollable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		077B46C120ADD7B800F9BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E58B81DB49877DC34554D2 /* Pods-InfinityScrollableTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYM25HT74E;
+				INFOPLIST_FILE = InfinityScrollableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhavin.iamtheworld.InfinityScrollableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinityScrollable.app/InfinityScrollable";
+			};
+			name = Debug;
+		};
+		077B46C220ADD7B800F9BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F491A09C51973262E617CD /* Pods-InfinityScrollableTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYM25HT74E;
+				INFOPLIST_FILE = InfinityScrollableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhavin.iamtheworld.InfinityScrollableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinityScrollable.app/InfinityScrollable";
+			};
+			name = Release;
+		};
+		077B46C420ADD7B800F9BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E256B40346B6A139B77D9C /* Pods-InfinityScrollableUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYM25HT74E;
+				INFOPLIST_FILE = InfinityScrollableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhavin.iamtheworld.InfinityScrollableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfinityScrollable;
+			};
+			name = Debug;
+		};
+		077B46C520ADD7B800F9BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E28A09ED2C8D557E71E643 /* Pods-InfinityScrollableUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYM25HT74E;
+				INFOPLIST_FILE = InfinityScrollableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhavin.iamtheworld.InfinityScrollableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfinityScrollable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077B468D20ADD7B700F9BE20 /* Build configuration list for PBXProject "InfinityScrollable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B46BB20ADD7B800F9BE20 /* Debug */,
+				077B46BC20ADD7B800F9BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B46BD20ADD7B800F9BE20 /* Build configuration list for PBXNativeTarget "InfinityScrollable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B46BE20ADD7B800F9BE20 /* Debug */,
+				077B46BF20ADD7B800F9BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B46C020ADD7B800F9BE20 /* Build configuration list for PBXNativeTarget "InfinityScrollableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B46C120ADD7B800F9BE20 /* Debug */,
+				077B46C220ADD7B800F9BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B46C320ADD7B800F9BE20 /* Build configuration list for PBXNativeTarget "InfinityScrollableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B46C420ADD7B800F9BE20 /* Debug */,
+				077B46C520ADD7B800F9BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		077B469C20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				077B469D20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodel */,
+			);
+			currentVersion = 077B469D20ADD7B800F9BE20 /* InfinityScrollable.xcdatamodel */;
+			path = InfinityScrollable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 077B468A20ADD7B700F9BE20 /* Project object */;
+}
